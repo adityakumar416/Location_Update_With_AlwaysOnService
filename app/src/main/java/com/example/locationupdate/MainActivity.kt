@@ -34,9 +34,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
-
     }
     fun requestPermission(){
         ActivityCompat.requestPermissions(this, arrayOf(
@@ -51,7 +48,5 @@ class MainActivity : AppCompatActivity() {
             return false
         }
     }
-
-
 
 }
